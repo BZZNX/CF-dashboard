@@ -1,0 +1,38 @@
+# Python virtual environment
+backend/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Python testing and linting cache
+.pytest_cache/
+.ruff_cache/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node dependencies
+frontend/node_modules/
+
+# SvelteKit generated files
+frontend/.svelte-kit/
+frontend/build/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Operating system files
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
